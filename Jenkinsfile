@@ -1,5 +1,5 @@
 pipeline {
-    agent {lable "docker-build-node"} 
+    agent {label "docker-build-node"} 
     environment {
     DOCKERHUB_CREDENTIALS = credentials('docker-hub-jenkins-venkatajax')
     }
